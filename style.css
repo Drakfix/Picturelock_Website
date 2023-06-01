@@ -386,6 +386,11 @@ button{
 .img-rd-lg{
 	border-radius:34px;
 }
+/*  Image Scale */
+.img-fluid-up{
+	min-width: 100%;
+	height: auto;
+}
 
 /* = Text & Icon Styles
 -------------------------------------------------------------- */
@@ -672,6 +677,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	height:424px;
 	width:360px;
 }
+.container-div-min-height{
+	min-height:74px;
+}
+.h3-style{
+	width:100%;
+}
+.p-gallery-style{
+	width:100%;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -685,9 +699,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	
 	--swatch-var-3409:rgba(174,124,81,1.00);
 	
-	--swatch-var-1165:rgba(15,15,15,1.00);
+	--swatch-var-1165:#0F0F0F;
 	
 	--swatch-var-5561:rgba(15,15,15,0.50);
+	
+	--swatch-var-4370:#00880F;
+	
+	--swatch-var-2055:rgba(15,15,15,0.84);
 	
 }
 
@@ -712,8 +730,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .tc-1165{
 	color:var(--swatch-var-1165)!important;
 }
-.tc-5561{
-	color:var(--swatch-var-5561)!important;
+.tc-2055{
+	color:var(--swatch-var-2055)!important;
 }
 .tc-3648{
 	color:var(--swatch-var-3648)!important;
@@ -726,6 +744,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .ltc-6728:hover{
 	color:#CCCCCC!important;
+}
+
+/* Icon colour styles */
+
+.icon-6728{
+	color:var(--swatch-var-6728)!important;
+	border-color:var(--swatch-var-6728)!important;
 }
 
 /* Bloc image backgrounds */
