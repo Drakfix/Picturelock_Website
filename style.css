@@ -139,6 +139,10 @@ a:hover{text-decoration: none; cursor:pointer;}
 .texture-fabric::before{
 	background: url("img/texture-fabric.png");
 }
+.texture-geometry-shapes::before{
+	background: url("img/texture-geometry-shapes.png");
+	background-size: 280px 280px;
+}
 .texture-geometry-shapes-2::before{
 	background: url("img/texture-geometry-shapes-2.png");
 	background-size: 200px 200px;
@@ -675,8 +679,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:100%;
 }
 .img-anton-style{
-	height:424px;
-	width:360px;
+	height:450px;
+	width:500px;
 }
 .container-div-min-height{
 	min-height:74px;
@@ -698,6 +702,27 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .img-10-style{
 	height:374px;
 }
+.img-a-love-song-j-style{
+	height:374px;
+	width:263px;
+}
+.img-14-style{
+	height:374px;
+}
+.img-15-style{
+	height:374px;
+	width:263px;
+}
+.img-jezzab-style{
+	height:374px;
+	width:263px;
+}
+.divider-background-color{
+	background-color:var(--swatch-var-6728);
+}
+.img-logo-manosanta-style{
+	width:240px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -709,9 +734,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	
 	--swatch-var-6728:rgba(255,255,255,1.00);
 	
-	--swatch-var-3409:rgba(174,124,81,1.00);
+	--swatch-var-3409:rgba(174,124,81,0.84);
 	
-	--swatch-var-1165:#0F0F0F;
+	--swatch-var-1165:rgba(15,15,15,1.00);
 	
 	--swatch-var-5561:rgba(15,15,15,0.50);
 	
@@ -729,6 +754,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .bgc-6728{
 	background-color:var(--swatch-var-6728);
+}
+.bgc-3409{
+	background-color:var(--swatch-var-3409);
 }
 
 /* Text colour styles */
@@ -774,19 +802,19 @@ url("img/Toma%20de%20panel%20de%20control%20y%20sonido.webp") 2x);background-ima
 url("img/Toma%20de%20panel%20de%20control%20y%20sonido.jpg") 2x,url("img/Toma%20de%20panel%20de%20control%20y%20sonido.webp") 1x,
 url("img/Toma%20de%20panel%20de%20control%20y%20sonido.webp") 2x);
 }
-.bg-20220511-120242{
-	background-image:url("img/20220511_120242.jpg");
-	background-image: -webkit-image-set(url("img/20220511_120242.webp") 1x,
-url("img/20220511_120242.webp") 2x);background-image: image-set(url("img/20220511_120242.jpg") 1x,
-url("img/20220511_120242.jpg") 2x,url("img/20220511_120242.webp") 1x,
-url("img/20220511_120242.webp") 2x);
-}
 .bg-Picture-20Lock-white-logo-only{
 	background-image:url("img/Picture%20Lock_white_logo_only.png");
 	background-image: -webkit-image-set(url("img/Picture%20Lock_white_logo_only.webp") 1x,
 url("img/Picture%20Lock_white_logo_only.webp") 2x);background-image: image-set(url("img/Picture%20Lock_white_logo_only.png") 1x,
 url("img/Picture%20Lock_white_logo_only.png") 2x,url("img/Picture%20Lock_white_logo_only.webp") 1x,
 url("img/Picture%20Lock_white_logo_only.webp") 2x);
+}
+.bg-IMG-20230125-194433-01-2{
+	background-image:url("img/IMG_20230125_194433-01_2.jpeg");
+	background-image: -webkit-image-set(url("img/IMG_20230125_194433-01_2.webp") 1x,
+url("img/IMG_20230125_194433-01_2.webp") 2x);background-image: image-set(url("img/IMG_20230125_194433-01_2.jpeg") 1x,
+url("img/IMG_20230125_194433-01_2.jpeg") 2x,url("img/IMG_20230125_194433-01_2.webp") 1x,
+url("img/IMG_20230125_194433-01_2.webp") 2x);
 }
 
 /* = Custom Bric Data
