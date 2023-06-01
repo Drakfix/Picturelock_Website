@@ -386,11 +386,6 @@ button{
 .img-rd-lg{
 	border-radius:34px;
 }
-/*  Image Scale */
-.img-fluid-up{
-	min-width: 100%;
-	height: auto;
-}
 
 /* = Text & Icon Styles
 -------------------------------------------------------------- */
@@ -632,24 +627,30 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .img-style{
 	height:374px;
+	width:263px;
 }
 .img-sanctor-style{
 	height:374px;
+	width:263px;
 }
 .img-gallery-style{
 	height:374px;
+	width:263px;
 }
 .img-6-style{
 	height:374px;
+	width:263px;
 }
 .img-5-style{
 	height:374px;
 }
 .img-medinthin-style{
 	height:374px;
+	width:263px;
 }
 .img-3-style{
 	height:374px;
+	width:263px;
 }
 .bloc-fill{
 	fill:transparent;
@@ -670,7 +671,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-size:16px;
 }
 .p-pricing-style{
-	font-size:21px;
+	font-size:20px;
 	width:100%;
 }
 .img-anton-style{
@@ -682,9 +683,20 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .h3-style{
 	width:100%;
+	font-size:23px;
 }
 .p-gallery-style{
 	width:100%;
+}
+.h3-contact-style{
+	width:100%;
+	font-size:23px;
+}
+.h3-8-style{
+	font-size:23px;
+}
+.img-10-style{
+	height:374px;
 }
 
 /* = Colour
