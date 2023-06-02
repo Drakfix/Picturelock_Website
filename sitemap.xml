@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
-	<loc>https://picturelock.com.mx</loc>
+	<loc>https://picturelock.com.mx/home.html</loc>
 	<lastmod>2023-06-01</lastmod>
 	<changefreq>Weekly</changefreq>
-	<priority>1.0</priority>
+	<priority>0.5</priority>
 	<image:image>
 	<image:loc>https://picturelock.com.mx/img/Picture%20Lock_white_logo_only.png</image:loc>
 	<image:title>logo</image:title>
@@ -156,6 +156,28 @@
 	<image:image>
 	<image:loc>https://picturelock.com.mx/img/JEZZABEL.webp</image:loc>
 	<image:title>Jezabel</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://picturelock.com.mx/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://picturelock.com.mx/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://picturelock.com.mx</loc>
+	<lastmod>2023-06-01</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>1.0</priority>
+	<image:image>
+	<image:loc>https://picturelock.com.mx/img/Picture%20Lock_white.png</image:loc>
+	<image:title>Picture Lock_white</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://picturelock.com.mx/img/Picture%20Lock_white.webp</image:loc>
+	<image:title>Picture Lock_white</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://picturelock.com.mx/img/</image:loc>

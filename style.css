@@ -52,9 +52,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 .bloc-md{
 	padding:50px 20px;
 }
-.bloc-sm{
-	padding:20px;
-}
 
 /* = Full Screen Blocs 
 -------------------------------------------------------------- */
@@ -362,19 +359,22 @@ button{
 	outline: none!important;
 }
 
+.btn-sq{
+	border-radius: 0px;
+}
 .btn-clean{
 	border:1px solid rgba(0,0,0,.08);
 	border-bottom-color:rgba(0,0,0,.1);
 	text-shadow:0 1px 0 rgba(0,0,1,.1);
 	box-shadow: 0 1px 3px rgba(0,0,1,.25), inset 0 1px 0 0 rgba(255,255,255,.15);
 }
-.a-block{
-	width:100%;
-	text-align:left;
-	display: inline-block;
+.btn-wire{
+	background:transparent!important;
+	border:2px solid transparent;
 }
-.text-center .a-block{
-	text-align:center;
+.btn-wire:hover{
+	background:transparent!important;
+	border:2px solid transparent;
 }
 
 /* = Icons
@@ -744,6 +744,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	
 	--swatch-var-2055:rgba(15,15,15,0.84);
 	
+	--swatch-var-6551:rgba(15,15,15,0.24);
+	
 }
 
 
@@ -775,6 +777,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .tc-3648{
 	color:var(--swatch-var-3648)!important;
+}
+
+/* Button colour styles */
+
+.wire-btn-c-6551{
+	color:var(--swatch-var-6551)!important;
+	border-color:var(--swatch-var-6551)!important;
 }
 
 /* Link colour styles */
