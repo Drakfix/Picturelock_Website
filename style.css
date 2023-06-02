@@ -700,7 +700,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-size:21px;
 }
 .h3-8-style{
-	font-size:23px;
+	font-size:21px;
 }
 .img-10-style{
 	height:374px;
@@ -731,6 +731,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .container-div-style{
 	width:100%;
+}
+.divider-about-background-color{
+	background-color:var(--swatch-var-3409);
+	width:13%;
+	margin-left:auto;
+	margin-right:auto;
+	height:2px;
 }
 
 /* = Colour
