@@ -49,6 +49,9 @@ a:hover{text-decoration: none; cursor:pointer;}
 
 /* Sizes */
 
+.bloc-lg{
+	padding:100px 20px;
+}
 .bloc-md{
 	padding:50px 20px;
 }
@@ -723,6 +726,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .img-logo-manosanta-style{
 	width:240px;
 }
+.p-team-style{
+	width:100%;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -745,6 +751,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	--swatch-var-2055:rgba(15,15,15,0.84);
 	
 	--swatch-var-6551:rgba(15,15,15,0.24);
+	
+	--swatch-var-2869:#000000;
+	
+	--swatch-var-2941:#FFFFFF;
 	
 }
 
@@ -801,6 +811,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	color:var(--swatch-var-6728)!important;
 	border-color:var(--swatch-var-6728)!important;
 }
+.icon-2941{
+	color:var(--swatch-var-2941)!important;
+	border-color:var(--swatch-var-2941)!important;
+}
 
 /* Bloc image backgrounds */
 
@@ -818,12 +832,12 @@ url("img/Picture%20Lock_white_logo_only.webp") 2x);background-image: image-set(u
 url("img/Picture%20Lock_white_logo_only.png") 2x,url("img/Picture%20Lock_white_logo_only.webp") 1x,
 url("img/Picture%20Lock_white_logo_only.webp") 2x);
 }
-.bg-IMG-20230125-194433-01-2{
-	background-image:url("img/IMG_20230125_194433-01_2.jpeg");
-	background-image: -webkit-image-set(url("img/IMG_20230125_194433-01_2.webp") 1x,
-url("img/IMG_20230125_194433-01_2.webp") 2x);background-image: image-set(url("img/IMG_20230125_194433-01_2.jpeg") 1x,
-url("img/IMG_20230125_194433-01_2.jpeg") 2x,url("img/IMG_20230125_194433-01_2.webp") 1x,
-url("img/IMG_20230125_194433-01_2.webp") 2x);
+.bg-IMG-20230125-194433-01EDIT{
+	background-image:url("img/IMG_20230125_194433-01EDIT.jpg");
+	background-image: -webkit-image-set(url("img/IMG_20230125_194433-01EDIT.webp") 1x,
+url("img/IMG_20230125_194433-01EDIT.webp") 2x);background-image: image-set(url("img/IMG_20230125_194433-01EDIT.jpg") 1x,
+url("img/IMG_20230125_194433-01EDIT.jpg") 2x,url("img/IMG_20230125_194433-01EDIT.webp") 1x,
+url("img/IMG_20230125_194433-01EDIT.webp") 2x);
 }
 
 /* = Custom Bric Data
@@ -921,6 +935,14 @@ url("img/IMG_20230125_194433-01_2.webp") 2x);
 	   height: 320px;
     }
 }
+
+@media (max-width: 991px){
+	.img-14-style{
+		width:263px;
+	}
+	
+}
+
 @media (max-width: 767px){
 	.box{
 		background-color:#AE7C4F;
@@ -957,6 +979,12 @@ url("img/IMG_20230125_194433-01_2.webp") 2x);
 	}
 	.box{
 		padding:20px 20px 20px 20px;
+	}
+	.img-14-style{
+		width:263px;
+	}
+	.img-anton-style{
+		height:380px;
 	}
 	
 }

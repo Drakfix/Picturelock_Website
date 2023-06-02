@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
 	<loc>https://picturelock.com.mx/home.html</loc>
-	<lastmod>2023-06-01</lastmod>
+	<lastmod>2023-06-02</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -14,28 +14,20 @@
 	<image:title>logo</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://picturelock.com.mx/img/ERNIE%20HEADSHOT.jpeg</image:loc>
-	<image:title>ERNIE</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://picturelock.com.mx/img/ERNIE%20HEADSHOT.webp</image:loc>
-	<image:title>ERNIE</image:title>
-	</image:image>
-	<image:image>
 	<image:loc>https://picturelock.com.mx/img/IMG_20230601_101114.jpg</image:loc>
-	<image:title>LENIN</image:title>
+	<image:title>ERNIE</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://picturelock.com.mx/img/IMG_20230601_101114.webp</image:loc>
+	<image:title>ERNIE</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://picturelock.com.mx/img/ERNIE%20HEADSHOT.jpeg</image:loc>
 	<image:title>LENIN</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://picturelock.com.mx/img/IMG-20230601-WA0028.jpg</image:loc>
-	<image:title>ERNIE</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://picturelock.com.mx/img/IMG-20230601-WA0028.webp</image:loc>
-	<image:title>ERNIE</image:title>
+	<image:loc>https://picturelock.com.mx/img/ERNIE%20HEADSHOT.webp</image:loc>
+	<image:title>LENIN</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://picturelock.com.mx/img/SCHAEFFER%20COLOR.png</image:loc>
@@ -46,14 +38,6 @@
 	<image:title>page export</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://picturelock.com.mx/img/ANTONIO.jpg</image:loc>
-	<image:title>LENIN</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://picturelock.com.mx/img/ANTONIO.webp</image:loc>
-	<image:title>LENIN</image:title>
-	</image:image>
-	<image:image>
 	<image:loc>https://picturelock.com.mx/img/LOGO_MANOSANTA_W.png</image:loc>
 	<image:title>LOGO_MANOSANTA_W</image:title>
 	</image:image>
@@ -62,19 +46,19 @@
 	<image:title>LOGO_MANOSANTA_W</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://picturelock.com.mx/img/POSTER-01---SPANISH.jpeg</image:loc>
+	<image:loc>https://picturelock.com.mx/img/INFECCIÓN,%20Flavio%20Pedota,%20POSTER-2---SPANISH_1920x1080.jpeg</image:loc>
 	<image:title>Infección</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://picturelock.com.mx/img/POSTER-01---SPANISH.webp</image:loc>
+	<image:loc>https://picturelock.com.mx/img/INFECCIÓN,%20Flavio%20Pedota,%20POSTER-2---SPANISH_1920x1080.webp</image:loc>
 	<image:title>Infección</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://picturelock.com.mx/img/f034de4798d2135445578a1e4abf67d7--lost-paradise-mexico.jpeg</image:loc>
+	<image:loc>https://picturelock.com.mx/img/JEZZABEL.png</image:loc>
 	<image:title>Paraíso Perdido</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://picturelock.com.mx/img/f034de4798d2135445578a1e4abf67d7--lost-paradise-mexico.webp</image:loc>
+	<image:loc>https://picturelock.com.mx/img/JEZZABEL.webp</image:loc>
 	<image:title>Paraíso Perdido</image:title>
 	</image:image>
 	<image:image>
@@ -150,11 +134,11 @@
 	<image:title>Una Great Movie</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://picturelock.com.mx/img/JEZZABEL.png</image:loc>
+	<image:loc>https://picturelock.com.mx/img/DRIVER%20KIDS.jpg</image:loc>
 	<image:title>Jezabel</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://picturelock.com.mx/img/JEZZABEL.webp</image:loc>
+	<image:loc>https://picturelock.com.mx/img/DRIVER%20KIDS.webp</image:loc>
 	<image:title>Jezabel</image:title>
 	</image:image>
 	<image:image>
@@ -168,7 +152,7 @@
 </url>
 <url>
 	<loc>https://picturelock.com.mx</loc>
-	<lastmod>2023-06-01</lastmod>
+	<lastmod>2023-06-02</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>1.0</priority>
 	<image:image>
