@@ -362,9 +362,6 @@ button{
 	outline: none!important;
 }
 
-.btn-sq{
-	border-radius: 0px;
-}
 .btn-clean{
 	border:1px solid rgba(0,0,0,.08);
 	border-bottom-color:rgba(0,0,0,.1);
@@ -378,6 +375,10 @@ button{
 .btn-wire:hover{
 	background:transparent!important;
 	border:2px solid transparent;
+}
+.btn-xl{
+	padding: 16px 40px;
+	font-size: 28px;
 }
 
 /* = Icons
@@ -675,7 +676,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:92.5%;
 }
 .p-style{
-	font-size:16px;
+	font-size:15px;
 }
 .p-pricing-style{
 	font-size:20px;
@@ -728,6 +729,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .p-team-style{
 	width:100%;
+	font-size:20px;
 }
 .container-div-style{
 	width:100%;
@@ -738,6 +740,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-left:auto;
 	margin-right:auto;
 	height:2px;
+}
+.row-style{
+	width:46.67%;
 }
 
 /* = Colour
@@ -804,9 +809,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* Button colour styles */
 
-.wire-btn-c-6551{
-	color:var(--swatch-var-6551)!important;
-	border-color:var(--swatch-var-6551)!important;
+.wire-btn-c-3648{
+	color:var(--swatch-var-3648)!important;
+	border-color:var(--swatch-var-3648)!important;
 }
 
 /* Link colour styles */
