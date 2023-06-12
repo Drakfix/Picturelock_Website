@@ -49,9 +49,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 
 /* Sizes */
 
-.bloc-lg{
-	padding:100px 20px;
-}
 .bloc-md{
 	padding:50px 20px;
 }
@@ -136,6 +133,10 @@ a:hover{text-decoration: none; cursor:pointer;}
 	left:0;
 	right:0;
 }
+.texture-paper::before{
+	background: url("img/texture-paper.png");
+	background-size: 280px 280px;
+}
 .texture-fabric::before{
 	background: url("img/texture-fabric.png");
 }
@@ -146,10 +147,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 .texture-geometry-shapes-2::before{
 	background: url("img/texture-geometry-shapes-2.png");
 	background-size: 200px 200px;
-}
-.texture-diagonal-lines::before{
-	background: url("img/texture-diag-lines.png");
-	background-size: 10px 10px;
 }
 .texture-darken::before{
 	background: rgba(0,0,0,0.5);
@@ -583,7 +580,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	border-color:var(--swatch-var-1165)!important;
 	border-width:10px 10px 10px 10px;
 	width:100%;
-	background-color:var(--swatch-var-3409);
+	background-color:var(--swatch-var-5563);
 }
 .section-heading{
 	font-weight:bold;
@@ -771,6 +768,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	
 	--swatch-var-2941:#FFFFFF;
 	
+	--swatch-var-5563:rgba(174,124,81,0.64);
+	
+	--swatch-var-2525:rgba(110,32,169,0.47);
+	
 }
 
 
@@ -778,6 +779,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 .bgc-1165{
 	background-color:var(--swatch-var-1165);
+}
+.bgc-5563{
+	background-color:var(--swatch-var-5563);
 }
 .bgc-6728{
 	background-color:var(--swatch-var-6728);
@@ -993,7 +997,7 @@ url("img/IMG_20230125_194433-01EDIT.webp") 2x);
 		font-size:30px;
 	}
 	.hero-heading{
-		font-size:60px;
+		font-size:50px;
 	}
 	.box{
 		padding:20px 20px 20px 20px;
